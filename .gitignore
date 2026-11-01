@@ -1,0 +1,17 @@
+*.iml
+.gradle
+.kotlin
+.idea
+.DS_Store
+build/
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Real photos of people; local only, never pushed
+testdata/
+
+# Guest lists (personal data); only the name column is bundled, generated at build time
+*.csv
+*.numbers
